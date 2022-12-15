@@ -1,0 +1,30 @@
+.filter-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.filter-li:not(:last-child){
+    margin-right: 8px;
+}
+
+.filter{
+    padding: 6px 22px;
+    border-style: none;
+    background-color: #F5F4FA;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color var(--time) var(--time-funktion), color var(--time) var(--time-funktion), box-shadow var(--time) var(--time-funktion);
+
+    &:hover,
+    &:focus {
+            background-color: var(--activ-color);
+            color: var(--white-color);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+}

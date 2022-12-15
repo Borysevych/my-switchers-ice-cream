@@ -1,0 +1,36 @@
+.logo {
+    color: var(--activ-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+
+    @media screen and (min-width: $desctop) {
+            font-size: 26px;
+            line-height: 1.19;
+        }
+}
+
+.logo-end {
+    color: #000000;
+}
+
+.logo-end-f {
+    color: var(--white-color);
+}
+
+.logo-h {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo-f {
+    display: block;
+    text-align: center;
+    margin-bottom: 28px;
+
+    @media screen and (min-width: $desctop) {
+        display: block;
+        text-align: start;
+        }
+}

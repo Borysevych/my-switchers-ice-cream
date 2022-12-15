@@ -1,0 +1,73 @@
+.clients__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+
+    @media screen and (min-width: $desctop) {
+        font-size: 36px;
+        }
+}
+
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    @media screen and (min-width: $mobile) {
+        width: 450px;
+        }
+
+    @media screen and (min-width: $tablet) {
+        width: 738px;
+        }
+
+    @media screen and (min-width: $desctop) {
+        width: 1170px;
+        }
+}
+
+.clients__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100%/2 - 30px);
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border var(--time) var(--time-funktion);
+
+    &:hover {
+            border: 1px solid var(--activ-color);
+            cursor: pointer;
+        }
+
+        @media screen and (min-width: $mobile) {
+            width: 210px;
+        }
+        
+        @media screen and (min-width: $tablet) {
+            width: 226px;
+        }
+        @media screen and (min-width: $desctop) {
+            width: 170px;
+        }
+}
+
+.clients__item a {
+    &:focus {
+            border: 1px solid var(--activ-color);
+            cursor: pointer;
+        }
+}
+
+.clients__icon {
+    fill: #AFB1B8;
+    transition: fill var(--time) var(--time-funktion);
+
+    .clients__item:hover &,
+    .clients__item:focus & {
+            fill: var(--activ-color);
+        }
+}

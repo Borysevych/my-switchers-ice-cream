@@ -1,0 +1,61 @@
+
+.reviews__text {
+    padding: 35px 39px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2.55;
+    
+    text-align: center;
+    
+    color: #FCFCFC;
+    background-color: #84A178;
+    border-radius: 10px;
+}
+
+.reviews__customer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.86;
+     
+    text-align: center;
+    
+    color: #131313;
+}
+
+.pagination-wrapper {
+    width: 72px;
+    height: 12px;
+    background: tomato;
+}
+
+.pagination {
+    position: relative;
+    
+}
+
+.pagination .dot {
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.pagination .active {
+    border: 1px solid #3498db;
+}
+
+.dot:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    background: #e74c3c;
+    border-radius: 50%;
+}

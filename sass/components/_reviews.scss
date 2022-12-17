@@ -1,21 +1,17 @@
-ul {
-    list-style: none;
-}
+// .reviews__foto {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-bottom: 80px;
 
-.reviews {
-    padding: 0;
-}
+//     @media screen and (min-width: 768px) {
+//         margin-bottom: 100px;
+//     }
 
-.reviews .container {
-    padding: 0 20px;
-
-    @media screen and (min-width: 768px) {
-        width: 768px;
-        }
-    @media screen and (min-width: 1200px) {
-        width: 1200px;
-        }
-}
+//     @media screen and (min-width: 1200px) {
+//         margin-bottom: 140px;
+//     }
+// }
 
 .visually-hidden {
     position: absolute;
@@ -30,17 +26,18 @@ ul {
     overflow: hidden;
 }
 
-.reviews__foto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
+.reviews {
+    padding-top: 80px;
+    padding-bottom: 40px;
 
     @media screen and (min-width: 768px) {
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 80px;
     }
+
     @media screen and (min-width: 1200px) {
-    margin-bottom: 140px;
+    padding-top: 140px;
+    padding-bottom: 100px;
     }
 }
 

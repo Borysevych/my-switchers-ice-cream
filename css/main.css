@@ -1623,20 +1623,6 @@ textarea:focus-visible {
   margin-bottom: 32px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .reviews {
   padding-top: 80px;
   padding-bottom: 40px;
@@ -1717,6 +1703,16 @@ textarea:focus-visible {
   .swiper-wrapper {
     margin-bottom: 52px;
   }
+}
+
+.swiper-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
 }
 
 .swiper-pagination-bullet {

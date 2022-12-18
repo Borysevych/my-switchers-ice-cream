@@ -1,16 +1,3 @@
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .reviews {
     padding-top: 80px;
     padding-bottom: 40px;
@@ -91,9 +78,11 @@
     }
 }
 
-// . {
-//     margin: 0 9px;
-// }
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
 .swiper-pagination-bullet {
     width: 12px;
